@@ -1,0 +1,26 @@
+-- creating database
+create database student;
+
+-- creating table
+create table student.details(
+stu_id int,
+stu_name varchar(20),
+stu_dept varchar(20),
+college varchar(20));
+
+-- inserting values
+insert into student.details values
+(1,"Saranya","BME","MEC"),
+(2,"vinothini","BME","MEC"),
+(3,"lekhana","BME","MEC"),
+(4,"Anitha","BME","MEC"),
+(5,"Avanthika","BME","MEC"),
+(6,"padma","CY","MEC"),
+(7,"Santhiya","CSE","MCE"),
+(8,"Harini","BT","MEC"),
+(9,"Sathya","BT","MEC"),
+(10,"Kruti","IT","MEC"),
+(11,"Saranya","Saranya","Saranya");
+
+-- display table
+select * from student.details
